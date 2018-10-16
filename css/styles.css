@@ -1,0 +1,21 @@
+div.playerDice{
+	float:left;
+	width:32px;
+	background: grey;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+div.computerDice{
+	float:left;
+	width:32px;
+	background: lightblue;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
