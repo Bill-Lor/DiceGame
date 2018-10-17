@@ -1,7 +1,8 @@
-div.playerDice{
+
+div.computerDice{
 	float:left;
 	width:32px;
-	background: grey;
+	background: lightblue;
 	border:#999 1px solid;
 	padding:10px;
 	font-size:24px;
@@ -9,10 +10,32 @@ div.playerDice{
 	margin:5px;
 }
 
-div.computerDice{
+div.winner{
 	float:left;
 	width:32px;
-	background: lightblue;
+	background: lightgreen;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+div.health{
+	float:left;
+	width:32px;
+	background: lightgoldenrodyellow;
+	border:#999 1px solid;
+	padding:10px;
+	font-size:24px;
+	text-align:center;
+	margin:5px;
+}
+
+div.playerDice{
+	float:left;
+	width:32px;
+	background: grey;
 	border:#999 1px solid;
 	padding:10px;
 	font-size:24px;
