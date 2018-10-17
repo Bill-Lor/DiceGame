@@ -1,4 +1,12 @@
 "use strict";
+//Dice battles
+//There are 2 players, you and computer. Each starts with 100 health points.
+//Each rolls 5 dices, a 4, 6, 8, 10, 12 sided dice. For example, your 4 sided dice will battle the computer's 4 sided dice.  
+//After each roll, clear the board and then roll dice again. 
+//The larger count of the 2 rolls will win the round. If the results of the roll is tie, the round is tie.  
+//Your 6 sided dice will battle the computer's 6 sided dice, and so on...
+//Each dice roll is counted as a round. The winner of the 5 (rounds) dice roll's 6th and 20 sided dice will deal damage to the player.  
+//First player to 0 health, looses.
 
 let myRemainingHealth=100;
 let pcRemainingHealth=100;
